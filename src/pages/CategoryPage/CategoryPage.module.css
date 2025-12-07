@@ -1,0 +1,68 @@
+.category {
+    width: 97%;
+    margin: 0 auto;
+}
+
+.sort{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    p{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding: 5px 0px 5px 0px;   
+    }
+    .filterPrice, .filterDiscount, .sorted{
+        display: flex;
+        height: 36px;
+        column-gap: 16px;
+    }
+    button{
+        width: 140px;
+        height: 36px;
+        color: black;
+        border-radius: 5px;
+        padding: 5px 10px;
+        border: 1px solid rgba(221, 221, 221, 1);
+        cursor: pointer;
+    }
+}
+
+.filterPrice{
+    input{
+        width: 80px;
+        color: black;
+        border-radius: 5px;
+        padding: 8px 16px 8px 16px;
+        border: 1px solid rgba(221, 221, 221, 1);
+    }
+}
+.filterDiscount{
+    input{
+        width: 36px;
+        height: 36px;
+        border: 1px solid rgba(221, 221, 221, 1);
+    }
+}
+.sorted{
+    select{
+        width: 146px;
+        border-radius: 5px;
+        padding: 8px 16px 8px 16px;
+        border: 1px solid rgba(221, 221, 221, 1);
+    }
+}
+
+.productsList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    row-gap: 30px;
+    justify-content: space-between;
+}

@@ -1,0 +1,37 @@
+.blockHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #282828;
+    white-space: nowrap;
+  }
+
+  .empty {
+    width: 40px;
+    height: 100%;
+  }
+
+  .poloska {
+    width: 100%;
+    height: 1px;
+    background-color: #dddddd;
+  }
+
+  .btn {
+    border-radius: 6px;
+    border-width: 1px;
+    padding: 8px 16px;
+    border: 1px solid #dddddd;
+    font-weight: 500;
+    font-size: 16px;
+    color: #8b8b8b;
+    user-select: none;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+}
